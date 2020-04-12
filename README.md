@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://agrierp-pub-assets.s3.eu-central-1.amazonaws.com/logo/agriERP-logo.png" height="128">
+    <img src=".github/agriERP-logo.png" height="150">
     <h2>AgriERP for ERPNext</h2>
     <p align="center">
         <p>ERP module for agriculture</p>
