@@ -8,6 +8,7 @@
 
 ![GitHub](https://img.shields.io/badge/ERPNext_version-%20v12%20-7574FF)
 ![GitHub](https://img.shields.io/github/license/lab51org/agrierp)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/lab51org/agrierp?include_prereleases)
 ![GitHub All Releases](https://img.shields.io/github/downloads/lab51org/agrierp/total)
 
