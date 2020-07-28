@@ -2,8 +2,8 @@
 Configuration for docs
 """
 
-# source_link = "https://github.com/[org_name]/agrierp"
-# docs_base_url = "https://[org_name].github.io/agrierp"
+source_link = "https://github.com/lab51org/agrierp"
+docs_base_url = "https://agrierp.lab51.org"
 # headline = "App that does everything"
 # sub_heading = "Yes, you got that right the first time, everything"
 

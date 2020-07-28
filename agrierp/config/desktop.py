@@ -7,8 +7,8 @@ def get_data():
 		{
 			"module_name": "Agrierp",
 			"color": "grey",
-			"icon": "octicon octicon-file-directory",
+			"icon": "fa fa-leaf",
 			"type": "module",
-			"label": _("Agrierp")
+			"label": _("AgriERP")
 		}
 	]
