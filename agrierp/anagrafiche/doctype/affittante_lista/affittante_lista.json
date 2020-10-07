@@ -1,0 +1,58 @@
+{
+ "autoname": "field:supplier_name",
+ "creation": "2020-10-07 22:41:43.026669",
+ "description": "prima bozza proprietari",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier_name",
+  "data_di_nascita",
+  "luogo_di_nascita",
+  "codice_fiscale"
+ ],
+ "fields": [
+  {
+   "fieldname": "data_di_nascita",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Data di Nascita",
+   "reqd": 1
+  },
+  {
+   "fieldname": "luogo_di_nascita",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Luogo di Nascita",
+   "reqd": 1
+  },
+  {
+   "fieldname": "codice_fiscale",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Codice Fiscale",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Nome e Cognome",
+   "options": "Supplier",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-10-07 22:47:55.150244",
+ "modified_by": "Administrator",
+ "module": "Anagrafiche",
+ "name": "Affittante Lista",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

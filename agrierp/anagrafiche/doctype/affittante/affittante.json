@@ -1,0 +1,82 @@
+{
+ "autoname": "field:nome_di_riferimento",
+ "creation": "2020-10-07 22:40:49.446787",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nome_di_riferimento",
+  "lista_affittanti",
+  "affittanti",
+  "contatti_section",
+  "contatto_principale",
+  "column_break_6",
+  "contatto_secondario"
+ ],
+ "fields": [
+  {
+   "fieldname": "nome_di_riferimento",
+   "fieldtype": "Data",
+   "label": "Nome di riferimento",
+   "unique": 1
+  },
+  {
+   "fieldname": "affittanti",
+   "fieldtype": "Table",
+   "label": "Affittanti",
+   "options": "Affittante Lista"
+  },
+  {
+   "fieldname": "lista_affittanti",
+   "fieldtype": "Section Break",
+   "label": "Lista Affittanti"
+  },
+  {
+   "fieldname": "contatti_section",
+   "fieldtype": "Section Break",
+   "label": "Contatti"
+  },
+  {
+   "fieldname": "contatto_principale",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Contatto Principale",
+   "options": "Contact",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contatto_secondario",
+   "fieldtype": "Data",
+   "label": "Contatto Secondario",
+   "options": "Contact"
+  }
+ ],
+ "modified": "2020-10-07 22:54:05.853638",
+ "modified_by": "Administrator",
+ "module": "Anagrafiche",
+ "name": "Affittante",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
