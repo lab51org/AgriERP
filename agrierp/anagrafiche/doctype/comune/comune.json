@@ -7,14 +7,18 @@
  "engine": "InnoDB",
  "field_order": [
   "comune",
-  "codice_catastale",
-  "column_break_9",
   "provincia",
+  "abbreviazione_provincia",
+  "column_break_9",
   "regione",
-  "info_istat_section",
-  "sigla_provincia",
-  "column_break_7",
-  "codice_alfanumerico"
+  "codice_catastale",
+  "classificazioni_section",
+  "legge_991_52",
+  "cee_268_75",
+  "column_break_10",
+  "dl_147_97",
+  "lr_33_97",
+  "amended_from"
  ],
  "fields": [
   {
@@ -47,32 +51,64 @@
    "reqd": 1
   },
   {
-   "fieldname": "info_istat_section",
-   "fieldtype": "Section Break",
-   "label": "Info ISTAT"
-  },
-  {
-   "fieldname": "sigla_provincia",
-   "fieldtype": "Data",
-   "label": "Sigla Provincia",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_7",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "codice_alfanumerico",
-   "fieldtype": "Data",
-   "label": "Codice Alfanumerico",
-   "reqd": 1
-  },
-  {
    "fieldname": "column_break_9",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "abbreviazione_provincia",
+   "fieldtype": "Data",
+   "label": "Abbreviazione Provincia",
+   "reqd": 1
+  },
+  {
+   "fieldname": "classificazioni_section",
+   "fieldtype": "Section Break",
+   "label": "Classificazioni"
+  },
+  {
+   "fieldname": "legge_991_52",
+   "fieldtype": "Select",
+   "label": "legge 991/1952",
+   "options": "\nNON MONTANO\nPARZIALMENTE MONTANO\nINTERAMENTE MONTANO",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cee_268_75",
+   "fieldtype": "Select",
+   "label": "direttiva CEE 268/75",
+   "options": "\nNON SVANTAGGIATO\nPARZIALMENTE SVANTAGGIATO\nINTERAMENTE SVANTAGGIATO",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dl_147_97",
+   "fieldtype": "Select",
+   "label": "decreto legislativo 16/4/1997 n. 146",
+   "options": "\nNON SVANTAGGIATO\nSVANTAGGIATO\nPARTICOLARMENTE SVANTAGGIATO",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lr_33_97",
+   "fieldtype": "Select",
+   "label": "articolo 5 l.r. 33/1997",
+   "options": "\nCLASSE I\nCLASSE II\nCLASSE III\nCLASSE IV\nCLASSE V",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Comune",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
- "modified": "2020-10-07 00:00:37.255936",
+ "is_submittable": 1,
+ "modified": "2020-10-07 13:27:14.127953",
  "modified_by": "Administrator",
  "module": "Anagrafiche",
  "name": "Comune",
