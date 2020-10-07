@@ -8,17 +8,20 @@ def get_data():
 			"items": [
 				{
 					"type": "doctype",
-					"name": "Regione",
-					"onboard": 1,
-				},
-				{
-					"type": "doctype",
-					"name": "Provincia",
-					"onboard": 1,
-				},
-				{
-					"type": "doctype",
 					"name": "Comune",
+					"label": _("Comuni"),
+					"onboard": 1,
+				},
+				{
+					"type": "doctype",
+					"name": "Location",
+					"label": _("Terreni"),
+					"onboard": 1,
+				},
+				{
+					"type": "doctype",
+					"name": "Asset",
+					"label": _("Mezzi e Attrezzatura"),
 					"onboard": 1,
 				}
 			]
