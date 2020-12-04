@@ -25,7 +25,7 @@ With this app you can manage fields, crops, fertilizers, operations, beekeeping 
 This is a module specifically written in order to abide to Italian laws and rules.
 This Readme is also in english because I believe, besides some doctypes specific for Italy, that everything else can be forked or modified through specific branches for any other country.
 
-### But you push commit one a month or less!
+### But you push commits once a month or less!
 Yes, you are right, I am looking for someone that wish to be involved into this project, please let me know if you are interested :)
 
 ### Project priorities
